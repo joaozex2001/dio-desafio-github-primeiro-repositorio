@@ -1,0 +1,25 @@
+dir --> lista as pastas no diretorio selecionado
+cd / --> sai do diretorio, e fica no diretorio c:
+cd "e o nome da pasta" --> entra na pasta selecionada
+cd .. --> retrocede o caminho quando utilizado o "cd 'nome pasta'"
+cls --> limpa o terminal
+cd + 'letra' + Tab --> completa o diretorio
+mkdir --> criar pasta
+echo --> apenas printa o que foi digitado no terminal
+echo 'hello' > 'hello.txt' --> pega a saida do 'echo' e cria um arquivo
+del 'nome da pasta' --> deleta somente os arquivos e não as pastas ou diretorios
+rmdir 'nome do diretorio' --> exclui o diretorio
+rmdir 'nome do diretorio' /s --> Exclui uma árvore de diretório (o diretório especificado e todos os subdiretórios, incluindo todos os arquivos).
+rmdir 'nome do diretorio' /q --> Especifica o modo silencioso. Não solicita confirmação ao excluir uma árvore de diretório. 
+                                 O parâmetro /q só funcionará se /s também for especificado.
+				 CUIDADO: Quando você executa no modo silencioso, toda a árvore de diretório é excluída sem confirmação. Verifique
+				 se os arquivos importantes foram movidos ou submetidos a backup antes de usar a opção da linha de comando /q.
+openssl sha1 'nome do txt' --> gera uma sequencia de caracteres, para usar como se fosse uma senha segura
+ls -a --> mostra arquivos ocultos
+git init --> roda o git dentro da pasta, para que ele começe a gerenciar o codigo
+git config --list --> verificar se existe um usuario
+mv 'nome arquivo' ./'nome do outro repositorio'/ --> mover um repositorio(arquivo) para outra pasta
+ctrl + l --> limpa o terminal
+git remote add origin 'link do repositorio online' --> subir repositorio local para o repositorio online
+git remote -v --> lista os repositorios online cadastrados
+origin --> é usuado para que facilite na hora de dar um git remote add origin 'link do repositorio online', ou seja não precisa passar o link do repositorio online
