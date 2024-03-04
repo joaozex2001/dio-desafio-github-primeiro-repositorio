@@ -1,5 +1,5 @@
 # Desafio de projeto Git/GitHub da DIO
-Repositório criado para o desafio de projeto.
+Impulso Java
 
 # Links Úteis
  - [Download do Git](https://git-scm.com/)
